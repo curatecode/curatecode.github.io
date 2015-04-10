@@ -1,0 +1,16 @@
+body {
+	background: #3E4D60;
+	color: #fff;
+}
+
+#curatecode {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	height: 189px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	@include at2x('../img/curatecode', png, auto);
+	@include transform(translate(-50%, -50%));
+}
