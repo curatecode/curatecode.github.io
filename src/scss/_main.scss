@@ -11,6 +11,6 @@ body {
 	height: 189px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	@include at2x('../img/curatecode', png, auto);
+	@include at2x('../img/curatecode', png, 100%);
 	@include transform(translate(-50%, -50%));
 }
